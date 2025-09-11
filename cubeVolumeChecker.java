@@ -14,6 +14,7 @@ public class cubeVolumeChecker {
             flag = false;
             System.out.println("Error");
         }
+        scan.close();
     }
 
     public static void main(String[] args){
@@ -24,3 +25,4 @@ public class cubeVolumeChecker {
     }
 
 }
+
