@@ -3,7 +3,7 @@ import java.util.HashSet;
 public class CheckEqualityOfSets {
     public static void areSetsEqual(HashSet<Integer> set1, HashSet<Integer> set2){
 
-        boolean isEqual = set1.containsAll(set2) && set2.containsAll(set1);
+        boolean isEqual = set1.equals(set2);
         System.out.println("Sets are Equal: " + isEqual);
     }
 
